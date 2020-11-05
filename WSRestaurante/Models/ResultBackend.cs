@@ -10,5 +10,9 @@ namespace WSRestaurante.Models
         public bool IsError { get; set; }
         public int BackendCode { get; set; }
         public string BackendMessage { get; set; }
+        public object BackendData { get; set; }
+
+        public ResultBackend() { }
     }
+
 }
